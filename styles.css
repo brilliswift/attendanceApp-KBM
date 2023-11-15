@@ -1,0 +1,355 @@
+h1 {
+  margin-top: 15%;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  color: #424242;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  
+}
+
+.image {
+    width: 281px;
+    height: 279px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+    justify-content: center;
+    height: 550px;
+    width: 500px;
+    
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  font-family: "Istok Web", Helvetica;
+  justify-content: left;
+  margin-bottom:auto;
+}
+
+.login-button {
+    width: 179px;
+    height: 43px;
+    font-weight: 550;
+    font-family: "Istok Web", Helvetica;
+    background-color: #56733f;
+    color: #f4f4f4;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+  background: #424242;
+}
+
+.form input {
+  font-family:"Istok Web", Helvetica;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+  font-family: "Istok Web-Bold", Helvetica;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  font-family: "Istok Web", Helvetica;
+  font-size: 20px;
+  font-weight: 550;
+  background: #424242;
+  width: 65%;
+  height: 1cm;
+  padding: 10px;
+  line-height:0;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer; 
+}
+
+.form .message {
+  margin-top: 1px;
+  margin-bottom: 2rem;
+  font-size: 12px;
+  font-weight: 550;
+  display: flex;
+  justify-content: right;
+  text-decoration: underline;
+}
+
+.form .message a {
+  color:#424242;
+  text-decoration: none;
+}
+/* Style halaman siswa */
+
+.header {
+  background-color: #55723f;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", Helvetica;
+    font-weight: 900;
+    color: #f4f4f4;
+    font-size: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+  font-family: "Istok Web-Regular", Helvetica;
+  font-weight: 400;
+  color: #424242;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 50px;
+}
+
+body {
+  background: linear-gradient(0deg, 
+  rgb(255, 255, 255, 1) 0%, 
+  rgb(210, 227, 201, 1) 100%);
+  margin: 0;
+  padding: 0;
+  background-repeat:no-repeat;
+/* Menghilangkan margin bawaan pada body */
+/* Menghilangkan padding bawaan pada body */
+}
+
+.nama-user{
+  font-family: "Istok Web-Bold", Helvetica;
+  font-weight: 700;
+  color: #424242;
+  font-size: 24px;
+  margin-bottom: 2rem;
+
+}
+
+
+button {
+  border: 1px solid transparent;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  font-size: 24px;
+  background-color: #424242;
+  color: rgba(244, 244, 244, 1);
+  /*width: 179px;
+  height: 43px;*/
+  padding: 3px 40px 3px 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  
+}
+
+
+.absen-button .hadir-button{
+  position: relative;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  font-size: 24px;
+  color: rgba(244, 244, 244, 1);
+
+}
+
+.tidak-hadir-button {
+  border: 1px solid transparent;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  font-size: 24px;
+  background-color: #f4f4f4;
+  border-color: #424242;
+  color: #424242;
+  /*width: 179px;
+  height: 43px;*/
+  padding: 3px 6px 3px 6px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* .login-button:hover, .absen-button:hover, .hadir-button:hover, .tidak-hadir-button:hover, .form button:hover{
+  background-color: rgba(185, 185, 185, 0.956); 
+} */
+
+button:hover {
+  background-color: rgba(185, 185, 185, 0.956); 
+}
+
+
+.continue-button{
+  position: relative;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  font-size: 24px;
+  color: rgba(244, 244, 244, 1);
+  margin-top: 5rem;
+  padding: 2px 10px 2px 10px;
+ 
+}
+
+.use-camera-button{
+  padding: 3px 5px 3px 5px;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  font-size: 24px;
+  color: rgba(244, 244, 244, 1);
+  margin: 0;
+}
+
+button .use-camera-button .repeat-camera-button{
+  line-height: 0;
+  margin-top: 0;
+}
+
+
+
+.repeat-camera-button{
+  border: 1px solid transparent;
+  font-family: "Istok Web", Helvetica;
+  font-weight: 550;
+  font-size: 24px;
+  background-color: #f4f4f4;
+  border-color: #424242;
+  color: #424242;
+  padding: 3px 20px 3px 20px;
+  margin-top: 20px;
+  border-radius: 10px; 
+}
+
+img .use-camera-button {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 6px;
+  left: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+img .repeat-camera-button{
+  position: absolute;
+  margin-top: 5px;
+}
+
+.rectangle {
+  padding: 150px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border: 2px solid transparent;
+  border-color: black;
+  background-color: #f4f4f4;
+}
+
+.foto-profil{
+  line-height: 0;
+  border-radius: 50%;
+  background-color: #d3d3d3;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 3rem;
+  align-items: center;
+  margin: 2rem auto;
+
+}
+
+.card-section {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+  justify-content: center;
+  height: 450px;
+  width: 400px;
+}
+
+.camera-section {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+  justify-content: center;
+  height: 480px;
+  width: 300px;
+}
+
+.hadir-button-group {
+  margin-top: 2rem;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer {
+  padding-top: 3px;
+  padding-bottom: 100px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .header {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
