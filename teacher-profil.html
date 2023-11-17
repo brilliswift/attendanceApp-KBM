@@ -27,14 +27,26 @@
             justify-content: center;
             flex-direction: column;
             margin: auto;
+            margin-top: 20px;
             margin-bottom: 1rem;
-            width: 43%;
-            height: 1cm;
+            border: 1px solid transparent;
             font-family: "Istok Web", Helvetica;
             font-size: 20px;
             font-weight: bold;
             background: #424242;
-            padding: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .absen {
+            width: 180px;
+            height: 45px;
+        }
+
+        .lihat-laporan {
+            width: 180px;
+            height: 45px;
+            line-height: 1;
         }
     </style>
 
@@ -52,7 +64,7 @@
             </div>
             <div class="status">Guru Pra-Remaja</div>
             <div class="nama-user">Linta Ghea</div>
-            <button onclick="window.location.href='attendance.html';">
+            <button class="absen" onclick="window.location.href='attendance.html';">
                 Absen
             </button>
 

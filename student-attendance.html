@@ -22,7 +22,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-
         }
 
         button {
@@ -30,8 +29,7 @@
             align-items: center;
             justify-content: center;
             margin-bottom: 1rem;
-            margin-left: 14.3rem;
-            width: 2cm;
+            width: 4cm;
             height: 0.9cm;
             font-family: "Istok Web", Helvetica;
             font-size: 20px;
@@ -40,6 +38,11 @@
             background-color: #D9D9D9;
             color: #424242;
             border: none;
+            margin-top: 2rem;
+        }
+
+        .label {
+            margin: 1cm;
         }
 
         p {
@@ -51,6 +54,9 @@
 
         .content {
             margin: auto;
+            margin-top: 2rem;
+            padding: 20px;
+            width: 40%;
         }
 
         nav ul {
@@ -63,6 +69,21 @@
         nav li {
             margin-right: 15px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td:first-child {
+            padding-left: 3rem;
+            text-align: left;
+        }
+
+        td:last-child {
+            text-align: left;
+            padding-left: 3rem;
+        }
     </style>
 </head>
 
@@ -70,23 +91,46 @@
     <header class="header">
         <span class="header-item"> Kehadiran Siswa </span>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <button>Date</button>
-            </li>
-            <li>
-                <button>Status</button>
-            </li>
-        </ul>
-    </nav>
+
     <div class="content">
-
-        <div class="card-section">
-
-
-
+        <div class="label">
+            <nav>
+                <ul>
+                    <li>
+                        <button>Date</button>
+                    </li>
+                    <li>
+                        <button>Status</button>
+                    </li>
+                </ul>
+            </nav>
         </div>
+        <table>
+            <tr>
+                <td>
+                    Brilliannissa
+                </td>
+                <td>
+                    H
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alesha
+                </td>
+                <td>
+                    H
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Keenan
+                </td>
+                <td>
+                    H
+                </td>
+            </tr>
+        </table>
 
 
     </div>
