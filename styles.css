@@ -306,7 +306,7 @@ img .repeat-camera-button{
 
 }
 
-.card-section {
+/*.card-section {
   background-color: white;
   border-radius: 10px;
   margin: 0 auto;
@@ -315,7 +315,7 @@ img .repeat-camera-button{
   justify-content: center;
   height: 450px;
   width: 400px;
-}
+} */
 
 .camera-section {
   background-color: white;
@@ -344,7 +344,23 @@ footer {
 
 @media screen and (max-width: 800px) {
   .header {
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  
+}
+
+@media screen and (max-width: 400px) {
+
+  body {
+    font-size: 24px;
+    
+  }
+
+  .header {
+    font-size: 20px;
+   
+  
   }
 }
 
