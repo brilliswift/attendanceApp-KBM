@@ -1,0 +1,37 @@
+img {
+    display: relative;
+    margin-top: 1rem;
+
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    font-family: "Istok Web", Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    background: #424242;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lihat-laporan {
+    font-size: 20px;
+}
+
+.absen {
+    width: 180px;
+    height: 45px;
+}
+
+.lihat-laporan {
+    width: 180px;
+    height: 45px;
+    line-height: 1;
+}
