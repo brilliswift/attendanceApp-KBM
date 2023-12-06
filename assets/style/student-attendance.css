@@ -127,6 +127,35 @@ button {
     line-height: 0;
 }
 
+/* Apply styles to the date input container */
+input[type="date"] {
+    position: relative;
+    padding: 5px;
+    font-family: "Istok Web", Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    color: #424242;
+    border: none;
+    width: 146px;
+    height: 23px;
+    top: 7px;
+    border-radius: 10px;
+    
+  }
+  
+ /* Change the appearance of the arrow button in WebKit browsers (e.g., Chrome, Safari) */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    background-color: transparent;
+    padding: 4px;
+    left: 15px; /* Adjust the left position as needed */
+    transform: translateY(-50%);
+    top: 50%;
+    color: #424242; /* Change the color as needed */
+    cursor: pointer;
+}
+
 
 p {
     font-family: "Istok Web", Helvetica;

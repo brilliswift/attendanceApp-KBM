@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Font Istok web -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style/admin.css">
+    <link rel="stylesheet" href="assets/style/styles.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <span class="header-item">Halaman Admin
+    </header>
+    <div class="content">
+        <div class="card-section">
+            <div>
+                <img src="assets/img/teacher.svg" alt="foto-profil" />
+            </div>
+
+            <button id="btn-report-teacher" class="laporan-guru" onclick="window.location.href='report-teacher.html';">
+                Laporan Guru
+            </button>
+
+            <button id="btn-report-student" class="laporan-siswa" onclick="window.location.href='report-student.html';">
+                Laporan Siswa
+            </button>
+
+            <button id="btn-report-student" class="pengaturan" onclick="window.location.href='report-student.html';">
+                Pengaturan Akun
+            </button>
+
+
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("btn-report-teacher").innerHTML = "Laporan Guru";
+        document.getElementById("btn-report-student").innerHTML = "Laporan Siswa";
+        const element = document.getElementsByTagName("button");
+
+        const buttons = document.getElementsByClassName('content');
+        for (const button of buttons) {
+            console.log(button.children[0]);
+        }
+
+        for (const button of buttons) {
+            button.children[0].style.borderRadius = '20px';
+        }
+
+    </script>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
