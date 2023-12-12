@@ -6,7 +6,7 @@
     overflow: hidden;
     width: 360px;
     height: 640px;
-    top: -50px;
+    top: -72px;
     position: relative;
     margin: auto;
 }
@@ -84,4 +84,7 @@
     height: 24px;
     top: 6px;
     left: 22px;
+}
+.result-camera {
+    margin-top: 10px;
 }

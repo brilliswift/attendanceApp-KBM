@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/style/styles.css">
+    <link rel="stylesheet" href="assets/style/ver-location.css">
 
 </head>
 
@@ -22,8 +23,9 @@
         <span class="header-item">Verifikasi Lokasi
     </header>
     <div class="content">
-        <div class="overlap-group">
-            Jl. Ring Road Selatan
+        <div class="overlap-group" onload="getLocation()">
+            Jl. Ringroad Selatan
+
             <br />
             <img class="navigation" src="assets/img/navigation.png" />
             <br />
@@ -36,42 +38,39 @@
 
     </div>
 
-    <p>Click the button to get your coordinates.</p>
-
-    <button onclick="getLocation()">Try It</button>
 
     <p id="demo"></p>
 
     <script>
-        const x = document.getElementById("demo");
+        const x=document.getElementById("overlap-group");
 
         function getLocation() {
             try {
                 navigator.geolocation.getCurrentPosition(showPosition);
             } catch {
-                x.innerHTML = err;
+                x.innerHTML=err;
             }
         }
 
         function showPosition(position) {
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-                "<br>Longitude: " + position.coords.longitude;
+            x.innerHTML="Latitude: "+position.coords.latitude+
+                "<br>Longitude: "+position.coords.longitude;
         }
 
 
         function showError(error) {
-            switch (error.code) {
+            switch(error.code) {
                 case error.PERMISSION_DENIED:
-                    x.innerHTML = "User denied the request for Geolocation."
+                    x.innerHTML="User denied the request for Geolocation."
                     break;
                 case error.POSITION_UNAVAILABLE:
-                    x.innerHTML = "Location information is unavailable."
+                    x.innerHTML="Location information is unavailable."
                     break;
                 case error.TIMEOUT:
-                    x.innerHTML = "The request to get user location timed out."
+                    x.innerHTML="The request to get user location timed out."
                     break;
                 case error.UNKNOWN_ERROR:
-                    x.innerHTML = "An unknown error occurred."
+                    x.innerHTML="An unknown error occurred."
                     break;
             }
         }

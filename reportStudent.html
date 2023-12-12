@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Data Laporan Kehadiran KBM Al-Mahdiyyin</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        const txt='{"name":"Alesha", "class":"A", "isAttend":true}'
+        const obj=JSON.parse(txt);
+        document.getElementById("demo").innerHTML=obj.name+", "+obj.class;
+    </script>
+
+
+
+</body>
+
+</html>

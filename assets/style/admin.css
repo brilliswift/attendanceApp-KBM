@@ -4,6 +4,38 @@ img {
     margin-bottom: 2rem;
 }
 
+.icon {
+    position: relative;
+    align-items: center;
+    height: 30px; 
+    width: 30px;
+    right: 50px;
+    top: 10px;
+    bottom: 60px;
+
+}
+
+.card-section{
+    margin-top: 2rem;
+}
+
+.btn {
+    font-size: 18px;
+    font-family: "Istok Web", Helvetica;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    right: 2rem;
+    padding: 10px;
+    height: 10px; 
+    width: 30px;
+    position: relative;
+    align-items: center;
+     
+ 
+}
+
 
 button {
     display: flex;
@@ -11,35 +43,36 @@ button {
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     border: 1px solid transparent;
-    font-family: "Istok Web", Helvetica;
-    font-weight: bold;
     background: #424242;
     cursor: pointer;
     transition: all 0.3s ease;
-    padding: 10px;
+    height: 10px;
 }
 
 .laporan-guru  {
-    width: 180px;
-    height: 45px;
+    width: 160px;
+    height: 100px;
     line-height: 1;
-    font-size: 14px;
+    left: 10px;
+    
 }
 
 .laporan-siswa {
-    width: 180px;
-    height: 45px;
+    width: 160px;
+    height: 100px;
     line-height: 1;
-    font-size: 14px;
+   
 }
 
 .pengaturan {
-    width: 180px;
-    height: 45px;
+    width: 160px;
+    height: 100px;
     line-height: 1;
     font-size: 15px;
 }
+
+
 

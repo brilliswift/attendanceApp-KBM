@@ -24,3 +24,6 @@ document.getElementById("class").innerHTML = "Hello World";
 
 // admin page
 
+
+// verification location
+
